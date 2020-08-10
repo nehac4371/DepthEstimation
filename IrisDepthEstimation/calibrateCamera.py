@@ -3,7 +3,10 @@ import numpy as np
 from scipy import stats
 import dlib
 
-KNOWN_WIDTH = 1.1
+#The average diameter of the human iris is 1.17+-0.05 cm
+KNOWN_WIDTH = 1.17
+
+#The user needs to measure the distance between him and the screen in cm
 KNOWN_DISTANCE = 57.5
 
 detector = dlib.get_frontal_face_detector()

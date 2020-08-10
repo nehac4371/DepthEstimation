@@ -2,7 +2,10 @@ import cv2
 import numpy as np
 import dlib
 
-KNOWN_WIDTH = 1.1
+#The average diameter of the human iris is 1.17+-0.05 cm
+KNOWN_WIDTH = 1.17
+
+#The focal length calculated from calibration
 FOCAL_LENGTH = 522.72727273
 
 

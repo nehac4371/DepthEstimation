@@ -1,0 +1,4 @@
+Verical Length = 11.6 cm 
+Horizontal Length = 17.1 cm 
+Known Distance = 84.0 cm
+Focal Length = 672.98245614 cm
